@@ -15,19 +15,20 @@ Before you begin, ensure you have the following installed on your machine:
 ```bash
 git clone <repository-url>
 cd DataLouna
+```
 
 
 3. **Run Docker Compose**
 
 ```bash
 docker-compose up --build
-
+```
 
 4. **Run the Application**
 
 ```bash
 npm run dev
-
+```
 
 
 ## API Endpoints
@@ -46,7 +47,7 @@ npm run dev
 "userId": "number",
 "productId": "number"
 }
-
+```
 - **Description:** Processes a purchase for a specified user and product.
 
 ## Database Initialization
