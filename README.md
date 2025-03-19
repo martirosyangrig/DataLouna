@@ -12,20 +12,20 @@ Before you begin, ensure you have the following installed on your machine:
 
 1. **Clone the Repository**
 
-bash
+```bash
 git clone <repository-url>
 cd DataLouna
 
 
 3. **Run Docker Compose**
 
-bash
+```bash
 docker-compose up --build
 
 
 4. **Run the Application**
 
-bash
+```bash
 npm run dev
 
 
@@ -41,7 +41,7 @@ npm run dev
 - **Endpoint:** `/api/purchase`
 - **Method:** POST
 - **Request Body:**
-json
+```json
 {
 "userId": "number",
 "productId": "number"
